@@ -10,9 +10,9 @@ get '/' do
 end
 
 get '/:nombre' do
-	"Hola #{params[:nombre]}!"
+	"Hola #{params[:nombre]}"
 end
 
 post '/nuevo/objeto' do
-	"Hola #{params[:nombre]}!"
+	"¡Hola #{params[:nombre]}!"
 end
